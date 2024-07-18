@@ -1,0 +1,47 @@
+
+
+
+/* Small Device */
+
+@media screen and (max-width:576px) {
+  .ham-menubar {
+    width: 1.5rem;
+    display: block;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  nav {
+    margin: 2rem 1rem;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
