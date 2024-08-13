@@ -1,0 +1,97 @@
+
+.bmi-up {
+  max-width: 50rem;
+  margin: 3rem auto;
+}
+.bmi-title-container {
+  width: 60%;
+  margin: 1rem auto;
+}
+
+.bmi-title-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.bmi-title-container p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.bmi-down {
+  background-color: #222222;
+  padding: 1rem 0;
+}
+
+.bmi-section {
+ max-width: 65.25rem;
+ margin: 1rem auto;
+}
+
+
+
+.bmi-main-section table {
+  margin-top: 1rem;
+  width: 100%;
+  height: 80%;
+}
+
+
+
+.bmi-main-section {
+  justify-content: space-between;
+  margin: 0rem 1rem;
+}
+
+.bmi-chart-container {
+  width: 35%;
+}
+.bmi-chart-container td, th {
+padding: 1rem;
+}
+
+.bmi-calculator-container {
+  width: 60%;
+}
+
+.bmi-calculator-container h2 {
+ font-size: 1.5rem;
+ margin-bottom: 0.7rem;
+}
+
+.bmi-calculator-container p {
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-section .bmi-calculator-container input {
+background-color: rgba(255, 255, 255, 0.1);
+padding: 1rem;
+border-radius: 0.5rem;
+border: none;
+}
+
+.bmi-cal {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.first-two {
+  gap: 0.5rem;
+}
+
+.first-two input {
+  width: 50%;
+}
+
+.second-two {
+  gap: 0.5rem;
+}
+
+.second-two input {
+  width: 50%;
+}
+
+.cal-btn {
+  padding: 1rem 3rem;
+}

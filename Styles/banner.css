@@ -1,0 +1,94 @@
+.banner-container {
+  max-width: 65.25rem;
+  margin: 2rem auto 0rem auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-info {
+  width: 45%;
+  margin-left: 1rem;
+}
+
+.banner-container h1 {
+  font-size: 4.8rem;
+  margin-bottom: 1rem;
+}
+#shape {
+  font-family: "Playwrite HR", cursive;
+  font-weight: 100;
+}
+
+.banner-container p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.primary-btn {
+  color: white;
+  background-color: #E6533C;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.second-btn {
+  /* why background-color: none; did not worked? */
+  background-color: transparent;
+  border: 2px solid white;
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+}
+
+
+.banner-img {
+  width: 45%;
+  position: relative;
+}
+
+.banner-tainer-img {
+  justify-content: end;
+}
+
+
+.flow-design {
+  padding: 1rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+}
+
+
+.first-flow {
+  position: absolute;
+  top: 4rem;
+  right: -4rem;
+}
+
+
+.second-flow {
+  position: absolute;
+  left: -1rem;
+  bottom: 4rem;
+}
+
+
+.color-circle {
+  height: 3rem;
+  width: 3rem;
+  background-color: #E6533C;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.banner-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.banner-container .banner-img p {
+  font-size: 0.9rem;
+}
+

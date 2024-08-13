@@ -1,0 +1,52 @@
+
+.change-habit-section {
+  max-width: 65.25rem;
+  margin: 3rem auto;
+}
+
+.habit-title {
+  width: 70%;
+  margin: 0 auto;
+
+  text-align: center;
+  margin-bottom: 1rem
+  
+}
+
+.habit-title h2 {
+  font-size: 3rem;
+}
+
+.habit-images {
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+
+.change-habit-section  img {
+  width: 100%;
+  border-radius: 50%;
+
+  border: 0.2rem solid rgb(28, 28, 28);
+}
+
+.habit-images div {
+  text-align: center;
+}
+
+.habit-images h3 {
+  margin-top: 0.5rem;
+}
+
+.habit-images p {
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+}
+
+.change-habit-section p {
+  /* margin-top: 0.5rem; */
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  color: rgba(255, 255, 255, 0.5);
+}

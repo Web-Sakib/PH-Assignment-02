@@ -1,0 +1,161 @@
+
+/* Small Device */
+
+@media screen and (max-width:576px) {
+  
+
+  /* Navbar Section */
+
+  .ham-menubar {
+    width: 1.5rem;
+    display: block;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  nav {
+    margin: 2rem 1rem;
+  }
+
+  /* Banner Section */
+  
+  .banner-container {
+    flex-direction: column;
+    margin: 2rem 1rem;
+  }
+
+  .banner-info {
+    width: 100%;
+  }
+
+  .first-flow {
+    top: 4rem;
+    right: 0rem;
+  }
+
+  .second-flow {
+    left: 1rem;
+    bottom: 15rem;
+  }
+
+.banner-img {
+  width: 100%;
+}
+
+.banner-tainer-img {
+  justify-content: center;
+}
+
+.color-circle {
+  height: 2rem;
+  width: 2rem;
+  background-color: #E6533C;
+  border-radius: 50%;
+  margin: auto 0.7rem auto 0;
+
+}
+
+.banner-container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.banner-container .banner-img p {
+  font-size: 0.7rem;
+}
+
+
+/* Change Habit Section */
+.change-habit-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  align-items: center;
+}
+
+.habit-images {
+  flex-direction: column;
+  width: 80%;
+
+}
+
+
+/* Run Section */
+.run-section {
+ flex-direction: column;
+ margin: 1rem ;
+}
+
+.run-info, .run-img {
+  width: 100%;
+  align-items: center;
+}
+
+
+/* Team Section */
+.team-img-container {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  margin: 1rem;
+}
+.team-info {
+  max-width: 90%;
+}
+
+
+
+/* BMI Section */
+.bmi-title-container {
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.bmi-main-section {
+  flex-direction: column;
+}
+
+.bmi-chart-container {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.bmi-calculator-container {
+  width: 100%;
+}
+
+
+
+/* Footer Section */
+
+.footer-up-section {
+  margin: 2rem auto;
+  grid-template-columns: 1fr;
+
+} 
+
+.footer-left p {
+
+  margin: 1rem 1rem;
+}
+
+.footer-middle, .footer-right {
+  margin-left: 1rem;
+}
+
+.footer-down-section {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+}
