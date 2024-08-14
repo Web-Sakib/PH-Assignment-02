@@ -52,7 +52,9 @@ padding: 1rem;
 }
 
 .bmi-calculator-container {
+
   width: 60%;
+
 }
 
 .bmi-calculator-container h2 {
@@ -65,32 +67,31 @@ padding: 1rem;
   color: rgba(255, 255, 255, 0.5);
 }
 
-.bmi-section .bmi-calculator-container input {
+.bmi-section .bmi-calculator-container input, select {
+background: transparent;
 background-color: rgba(255, 255, 255, 0.1);
 padding: 1rem;
 border-radius: 0.5rem;
 border: none;
+
+&::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 }
 
 .bmi-cal {
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.5rem;
 }
 
-.first-two {
-  gap: 0.5rem;
+.bmi-cal select {
+  color: rgba(255, 255, 255, 0.5);
 }
 
-.first-two input {
-  width: 50%;
-}
-
-.second-two {
-  gap: 0.5rem;
-}
-
-.second-two input {
-  width: 50%;
+#third {
+  grid-column: span 2;
 }
 
 .cal-btn {
